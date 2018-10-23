@@ -15,33 +15,6 @@ module.exports = {
       type: "string",
       label: "Author"
     },
-    license: {
-      type: "string",
-      label: "License",
-      default: "MIT"
-    },
-    plugins: {
-      type: "checkbox",
-      message: "Select which Vue plugins to install"
-    },
-    style: {
-      type: "list",
-      message: "Select which style to install",
-      choices: [
-        {
-          name: 'sass',
-          value: 'sass',
-        },
-        {
-          name: 'less',
-          value: 'less',
-        },
-        {
-          name: 'stylus',
-          value: 'stylus',
-        },
-      ]
-    },
     eslint: {
       type: 'confirm',
       require: true,
